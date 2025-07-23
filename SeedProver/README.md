@@ -59,7 +59,7 @@ Seed Prover sets new state-of-the-art across multiple formal reasoning benchmark
 | IMO 2025             | 4/6 (Heavy), 30 points 🥈                | 5/6 (Natural language, OpenAI)   |
 | Past IMO             | 79% (Heavy)                              | -                                 |
 | MiniF2F-valid        | 100% (Medium; 1 problem uses Heavy)      | 90.6% (DeepSeek-Prover-V2)        |
-| MiniF2F-test         | 99% (Medium)                             | 92.2% (Kimina-Prover)             |
+| MiniF2F-test         | 99%, 243/244 (Medium)                    | 92.2% (Kimina-Prover)             |
 | PutnamBench          | 331/657 (Medium)                         | 64/657 (Goedel-Prover-V2)         |
 | CombiBench           | 30% (Medium)                             | 10% (Deepseek-Prover-V2)          |
 | MiniCTX-v2           | 81.8% (Light)                            | 44.3% (O4-mini)                   |
