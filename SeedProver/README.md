@@ -10,7 +10,7 @@ Beyond its IMO success, Seed Prover has set the new state-of-the-art for formal 
 - 99% on MiniF2F-test
 - 79% on formalized past IMO problems (including 2024 P1, P2, P4)
 - 30% on combinatorics problems in CombiBench
-- 40% on PutnamBench
+- 50% on PutnamBench
 - 82% on MiniCTX-v2
 
 ## IMO 2025
