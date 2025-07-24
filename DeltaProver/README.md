@@ -1,7 +1,7 @@
 # Solving Formal Math Problems by Decomposition and Iterative Reflection
 
 <div align="center"> 
-  <a href="https://github.com/YichiZhou-bytedance/lean4-agent/blob/main/delta_prover.pdf"><b>Tech Report</b></a>
+  <a href="https://arxiv.org/abs/2507.15225"><b>Tech Report</b></a>
 </div>
 
 ---
