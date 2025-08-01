@@ -1,6 +1,8 @@
-# <img src="../imgs/logo.png" height="25"> Seed-Prover: Reasoning wide and deep for Automated Math Theorem Proving
+# <img src="../imgs/logo.png" height="25"> Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving
 
 ## Overview
+[Arxiv 2507.23726](https://arxiv.org/abs/2507.23726)
+
 In the rapidly evolving landscape of AI, automated theorem proving emerges as a pivotal frontier, seamlessly bridging the rigor of mathematics with powerful LLMs. 
 Our system, **Seed Prover**—built on the Lean verifier, leveraging long chain-of-thought reasoning, and powered by a multi-agent inference framework—continuously thinks over a difficult math problem for several days, deeply and widely.
 
@@ -25,7 +27,7 @@ Seed Prover solved 4 out of 6 problems in IMO 2025, with the following breakdown
 - P4 (number theory) [NL](imo2025/p4_proof.pdf) [Lean](imo2025/p4.lean): Solved in 3 days, with a 4000-line formal proof
 - P5 (combinatorics / algebra) [NL](imo2025/p5_proof.pdf) [Lean](imo2025/p5.lean): Solved in 1 day, with a proof slightly different from known human solutions
 
-P3,4,5 are compiled under Lean v4.14.0.
+P1,3,4,5 are compiled under Lean v4.14.0.
 
 ## Test-time Scaling of Seed Prover
 The success of Seed Prover stems from multi-stage RL training (enhancing long chain-of-thought reasoning and Lean interaction) and innovative test-time scaling strategies:
@@ -68,4 +70,14 @@ These results demonstrate Seed Prover's adaptability across high school competit
 
 
 ## Citation
-TBA.
+```
+@misc{chen2025seedproverdeepbroadreasoning,
+      title={Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving}, 
+      author={Luoxin Chen and Jinming Gu and Liankai Huang and Wenhao Huang and Zhicheng Jiang and Allan Jie and Xiaoran Jin and Xing Jin and Chenggang Li and Kaijing Ma and Cheng Ren and Jiawei Shen and Wenlei Shi and Tong Sun and He Sun and Jiahui Wang and Siran Wang and Zhihong Wang and Chenrui Wei and Shufa Wei and Yonghui Wu and Yuchen Wu and Yihang Xia and Huajian Xin and Fan Yang and Huaiyuan Ying and Hongyi Yuan and Zheng Yuan and Tianyang Zhan and Chi Zhang and Yue Zhang and Ge Zhang and Tianyun Zhao and Jianqiu Zhao and Yichi Zhou and Thomas Hanwen Zhu},
+      year={2025},
+      eprint={2507.23726},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2507.23726}, 
+}
+```

@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Website-%231e37ff?style=for-the-badge&logo=bytedance&logoColor=white"></a>
   <a href="https://github.com/user-attachments/assets/93481cda-a7f3-47f3-b333-fe6b3da86b78">
     <img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white"></a>
- <a href="https://www.xiaohongshu.com/user/profile/668e7e15000000000303157d?xsec_token=ABl2-aqekpytY6A8TuxjrwnZskU-6BsMRE_ufQQaSAvjc%3D&xsec_source=pc_search">
+ <a href="Seed研究员 - 小红书">
     <img src="https://img.shields.io/badge/Xiaohongshu-%23FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white"></a>
   <a href="https://www.zhihu.com/org/dou-bao-da-mo-xing-tuan-dui/">
     <img src="https://img.shields.io/badge/zhihu-%230084FF?style=for-the-badge&logo=zhihu&logoColor=white"></a>
@@ -24,8 +24,8 @@
 
 This page is used to store the Seed AI4Math group’s research projects, including Seed‑Prover and Delta‑Prover.
 
-- **Seed Prover** Seed‑Prover is the system we officially participated with in the IMO 2025.
-- **Delta prover** Delta‑Prover is a separate project focused on researching test time techniques for generating formal proofs.
+- **Seed Prover** Seed‑Prover is the system we officially participated with in the IMO 2025. [Arxiv](https://arxiv.org/abs/2507.23726)
+- **Delta prover** Delta‑Prover is a separate project focused on researching test time techniques for generating formal proofs. [Arxiv](https://arxiv.org/abs/2507.15225)
 
 ## Seed Prover IMO 2025
 Seed Prover solved 4 out of 6 problems in IMO 2025 durint the context, with the following breakdown:
@@ -42,4 +42,14 @@ Seed Prover solved 4 out of 6 problems in IMO 2025 durint the context, with the 
 P1,3,4,5 are compiled under Lean v4.14.0.
 
 ## Citation
-TBA.
+```
+@misc{chen2025seedproverdeepbroadreasoning,
+      title={Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving}, 
+      author={Luoxin Chen and Jinming Gu and Liankai Huang and Wenhao Huang and Zhicheng Jiang and Allan Jie and Xiaoran Jin and Xing Jin and Chenggang Li and Kaijing Ma and Cheng Ren and Jiawei Shen and Wenlei Shi and Tong Sun and He Sun and Jiahui Wang and Siran Wang and Zhihong Wang and Chenrui Wei and Shufa Wei and Yonghui Wu and Yuchen Wu and Yihang Xia and Huajian Xin and Fan Yang and Huaiyuan Ying and Hongyi Yuan and Zheng Yuan and Tianyang Zhan and Chi Zhang and Yue Zhang and Ge Zhang and Tianyun Zhao and Jianqiu Zhao and Yichi Zhou and Thomas Hanwen Zhu},
+      year={2025},
+      eprint={2507.23726},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2507.23726}, 
+}
+```
