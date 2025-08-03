@@ -28,7 +28,7 @@ This page is used to store the Seed AI4Math group’s research projects, includi
 - **Delta prover** Delta‑Prover is a separate project focused on researching test time techniques for generating formal proofs. [Arxiv](https://arxiv.org/abs/2507.15225)
 
 ## Seed Prover IMO 2025
-Seed Prover solved 4 out of 6 problems in IMO 2025 durint the context, with the following breakdown:
+Seed Prover solved 4 out of 6 problems in IMO 2025 during the contest, with the following breakdown:
 - **Day 1**: Fully solved P2 (geometry) and P3 (number theory), fully solved P1  (combinatorics) after the competition.
 - **Day 2**: Fully solved P4 (number theory) and P5 (combinatorics / algebra)
 
