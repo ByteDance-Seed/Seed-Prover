@@ -7,6 +7,8 @@ set_option maxRecDepth 1000
 set_option tactic.hygienic false
 open BigOperators Real Nat Topology Rat Classical Polynomial
 
+namespace IMO2025.P1
+
 lemma k_le_3_for_n_le_4_round1_main (n k : ℕ) (verts : Finset ℝ) (lines : Finset (ℝ × ℝ)) (points : Finset (ℕ × ℕ)) (hn : 3 ≤ n) (hcard : lines.card + verts.card = n) (hallpoints : ∀ p, p ∈ points ↔ p.1 ≥ 1 ∧ p.2 ≥ 1 ∧ p.1 + p.2 ≤ n + 1) (hmain : ∀ p ∈ points, (∃ l ∈ lines, l.1 * p.1 + l.2 = p.2) ∨ (∃ x ∈ verts, p.1 = x)) (hk : (lines.filter (fun l ↦ l.1 ≠ 0 ∧ l.1 ≠ -1)).card = k) (hn2 : n = 4):
   k ≤ 3 := by
   by_cases h16 : k > 3
@@ -4352,3 +4354,4 @@ theorem imo2025_p1_right (n k : ℕ) (hn : 3 ≤ n) (hk : k = 0 ∨ k = 1 ∨ k 
       exact round3_k3_third_cond n hn
 
 #print axioms imo2025_p1_right
+end IMO2025.P1

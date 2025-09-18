@@ -4,6 +4,7 @@ set_option maxHeartbeats 0
 set_option maxRecDepth 1000
 set_option tactic.hygienic false
 open BigOperators Real Nat Topology Rat
+namespace IMO2025.P5
 
 lemma round8_LoseA_iff (l : ℝ) (WinA : ℕ → ℝ → ℝ → Prop)
     (winA_iff : ∀ (n : ℕ) (sum1 sum2 : ℝ), WinA n sum1 sum2 ↔
@@ -763,3 +764,4 @@ theorem imo2025_p5_draw_a (l : ℝ) (hl0 : l > 0) (hl : l = √2 / 2) :
   exact imo2025_p5_draw_a_v22_main l hl0 hl
 
 #print axioms imo2025_p5_draw_a
+end IMO2025.P5

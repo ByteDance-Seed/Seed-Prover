@@ -6,6 +6,7 @@ set_option maxHeartbeats 0
 set_option maxRecDepth 1000
 set_option tactic.hygienic false
 open BigOperators Real Nat Topology Rat Classical Polynomial
+namespace IMO2025.P4
 
 lemma a0_is_even1_h_lemma1 (a : ℕ → ℕ)
   (hpos : ∀ n : ℕ, a n > 0)
@@ -3925,3 +3926,4 @@ theorem imo2025_p4_right (a0 k n : ℕ)
     <;> aesop
 
 #print axioms imo2025_p4_right
+end IMO2025.P4

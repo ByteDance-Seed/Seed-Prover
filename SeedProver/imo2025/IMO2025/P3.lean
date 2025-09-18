@@ -6,6 +6,7 @@ set_option maxHeartbeats 0
 set_option maxRecDepth 1000
 set_option tactic.hygienic false
 open BigOperators Real Nat Topology Rat Classical Polynomial
+namespace IMO2025.P3
 
 lemma round1_h1 (n : ℤ)
   (k : ℕ)
@@ -545,7 +546,7 @@ theorem lte_2_3n_minus_1 (n : ℤ) (hn : n > 0) : padicValNat 2 (3 ^ n.toNat - 1
     <;> aesop
 
 -- axiom f_n_is_power_of_two_for_even_n (n : ℤ) (f : ℤ → ℤ) (hn : n > 0) (hpos : ∀ k : ℤ, k > 0 → f k > 0) (hf : ∀ a b : ℤ, a > 0 → b > 0 → f a ∣ b ^ a.toNat - (f b) ^ (f a).toNat) (h_exists_k : ∃ k : ℤ, k > 1 ∧ f k ≠ k) :
---   ∃ k : ℕ, f n = 2 ^ k  
+--   ∃ k : ℕ, f n = 2 ^ k
 
 lemma round1_h_n_toNat_ge_one (n : ℤ)
   (hn : n > 0):
@@ -1965,3 +1966,4 @@ theorem imo2025_p3_right : ∃ (n : ℤ) (f : ℤ → ℤ), (n > 0) ∧ (∀ k :
     aesop
 
 #print axioms imo2025_p3_right
+end IMO2025.P3
