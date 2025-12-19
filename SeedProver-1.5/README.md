@@ -11,9 +11,7 @@ Compared to state-of-the-art methods, Seed-Prover 1.5 achieves superior performa
 
 We evaluated Seed-Prover 1.5 on the IMO 2025 and Putnam 2025 competition. While Seed-Prover 1.0 required "Heavy" mode to solve 5 out of 6 problems,
 Seed-Prover 1.5 achieved the same solve rate using significantly lower compute resources and shorter runtime. We also tested
-on the 12 problems from Putnam 2025, Seed Prover 1.5 successfully solved 11 of them within 9 hours
-
-Notably, using our system, we solved **11 out of 12 problems** from Putnam 2025 within 9 hours.
+on the 12 problems from Putnam 2025, Seed Prover 1.5 successfully solved 11 of them within 9 hours.
 
 Our findings suggest that scaling learning from experience, driven by high-quality formal feedback, holds immense potential for the future of formal mathematical reasoning.
 
