@@ -28,6 +28,8 @@ Our findings suggest that scaling learning from experience, driven by high-quali
 |-----------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | **Solve Hour**  | 1      | 0.5    | 2      | 4      | X      | 4      | 9      | 6      | 0.5    | 2      | 4      | 3      |
 
+*Compiled under Lean v4.22.0
+
 
 ## Citation
 ```
