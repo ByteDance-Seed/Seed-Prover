@@ -22,7 +22,7 @@
 # <img src="./imgs/logo.png" height="25"> Seed-Prover 1.5
 
 
-This page is used to store the Seed AI4Math group’s research projects, including Seed‑Prover and Delta‑Prover.
+This page is used to store the Seed AI4Math group’s research projects, including Seed‑Prover 1.5, Seed‑Prover and Delta‑Prover.
 - **Seed Prover 1.5** Seed-Prover 1.5 is our latest formal proving system. It can solve 88% of the problems in PutnamBench and 11 out of the 12 competition problems from Putnam 2025. [Arxiv]
 - **Seed Prover** Seed‑Prover 1.0 is the system we officially participated with in the IMO 2025. [Arxiv](https://arxiv.org/abs/2507.23726)
 - **Delta prover** Delta‑Prover is a separate project focused on researching test time techniques for generating formal proofs. [Arxiv](https://arxiv.org/abs/2507.15225)
