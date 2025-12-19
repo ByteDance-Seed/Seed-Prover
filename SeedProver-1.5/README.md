@@ -1,0 +1,24 @@
+# <img src="../imgs/logo.png" height="25"> Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience
+
+## Overview
+Large language models have recently made significant progress to generate rigorous mathematical proofs. In contrast, utilizing LLMs for theorem proving in formal languages (such as Lean) remains challenging and computationally expensive, particularly when addressing problems at the undergraduate level and beyond.
+
+In this work, we present **Seed-Prover 1.5**, a formal theorem-proving model trained via large-scale agentic reinforcement learning, alongside an efficient test-time scaling (TTS) workflow. Through extensive interactions with Lean and other tools, the model continuously accumulates experience during the RL process, substantially enhancing the capability and efficiency of formal theorem proving.
+
+Furthermore, leveraging recent advancements in natural language proving, our TTS workflow efficiently bridges the gap between natural and formal languages.
+
+Compared to state-of-the-art methods, Seed-Prover 1.5 achieves superior performance with a smaller compute budget. It solves **88% of PutnamBench** (undergraduate-level), **80% of Fate-H** (graduate-level), and **33% of Fate-X** (PhD-level) problems. Notably, using our system, we solved **11 out of 12 problems** from Putnam 2025 within 9 hours.
+
+Our findings suggest that scaling learning from experience, driven by high-quality formal feedback, holds immense potential for the future of formal mathematical reasoning.
+
+<img src="../imgs/SeedProver-1.5-bench.png" width="800" height="350">
+
+## Putnam 2025
+| **Putnam 2025** | **A1** | **A2** | **A3** | **A4** | **A5** | **A6** | **B1** | **B2** | **B3** | **B4** | **B5** | **B6** |
+|-----------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| **Solve Hour**  | 1      | 0.5    | 2      | 4      | X      | 4      | 9      | 6      | 0.5    | 2      | 4      | 3      |
+
+
+## Citation
+```
+```
