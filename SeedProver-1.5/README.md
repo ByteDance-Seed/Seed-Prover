@@ -7,13 +7,25 @@ In this work, we present **Seed-Prover 1.5**, a formal theorem-proving model tra
 
 Furthermore, leveraging recent advancements in natural language proving, our TTS workflow efficiently bridges the gap between natural and formal languages.
 
-Compared to state-of-the-art methods, Seed-Prover 1.5 achieves superior performance with a smaller compute budget. It solves **88% of PutnamBench** (undergraduate-level), **80% of Fate-H** (graduate-level), and **33% of Fate-X** (PhD-level) problems. Notably, using our system, we solved **11 out of 12 problems** from Putnam 2025 within 9 hours.
+Compared to state-of-the-art methods, Seed-Prover 1.5 achieves superior performance with a smaller compute budget. It solves **88% of PutnamBench** (undergraduate-level), **80% of Fate-H** (graduate-level), and **33% of Fate-X** (PhD-level) problems. 
+
+We evaluated Seed-Prover 1.5 on the IMO 2025 and Putnam 2025 competition. While Seed-Prover 1.0 required "Heavy" mode to solve 5 out of 6 problems,
+Seed-Prover 1.5 achieved the same solve rate using significantly lower compute resources and shorter runtime. We also tested
+on the 12 problems from Putnam 2025, Seed Prover 1.5 successfully solved 11 of them within 9 hours
+
+Notably, using our system, we solved **11 out of 12 problems** from Putnam 2025 within 9 hours.
 
 Our findings suggest that scaling learning from experience, driven by high-quality formal feedback, holds immense potential for the future of formal mathematical reasoning.
 
-<img src="../imgs/SeedProver-1.5-bench.png" width="800" height="350">
+<img src="../imgs/SeedProver-1.5-bench.png" width="800" height="400">
 
-## Putnam 2025
+## IMO and Putnam 2025
+| **IMO 2025**   | **P1** | **P2** | **P3** | **P4** | **P5** | **P6** |
+|-----------------|--------|--------|--------|--------|--------|--------|
+| **Solve Hour**  | 16.5   | 0.01   | 5      | 8      | 1      | X      |
+
+*P2 is solved by Seed-Geometry
+
 | **Putnam 2025** | **A1** | **A2** | **A3** | **A4** | **A5** | **A6** | **B1** | **B2** | **B3** | **B4** | **B5** | **B6** |
 |-----------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | **Solve Hour**  | 1      | 0.5    | 2      | 4      | X      | 4      | 9      | 6      | 0.5    | 2      | 4      | 3      |
