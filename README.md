@@ -43,6 +43,16 @@ P1,3,4,5 are compiled under Lean v4.14.0.
 
 ## Citation
 ```
+@misc{chen2025seedprover15masteringundergraduatelevel,
+      title={Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience}, 
+      author={Jiangjie Chen and Wenxiang Chen and Jiacheng Du and Jinyi Hu and Zhicheng Jiang and Allan Jie and Xiaoran Jin and Xing Jin and Chenggang Li and Wenlei Shi and Zhihong Wang and Mingxuan Wang and Chenrui Wei and Shufa Wei and Huajian Xin and Fan Yang and Weihao Gao and Zheng Yuan and Tianyang Zhan and Zeyu Zheng and Tianxi Zhou and Thomas Hanwen Zhu},
+      year={2025},
+      eprint={2512.17260},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.17260}, 
+}
+
 @misc{chen2025seedproverdeepbroadreasoning,
       title={Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving}, 
       author={Luoxin Chen and Jinming Gu and Liankai Huang and Wenhao Huang and Zhicheng Jiang and Allan Jie and Xiaoran Jin and Xing Jin and Chenggang Li and Kaijing Ma and Cheng Ren and Jiawei Shen and Wenlei Shi and Tong Sun and He Sun and Jiahui Wang and Siran Wang and Zhihong Wang and Chenrui Wei and Shufa Wei and Yonghui Wu and Yuchen Wu and Yihang Xia and Huajian Xin and Fan Yang and Huaiyuan Ying and Hongyi Yuan and Zheng Yuan and Tianyang Zhan and Chi Zhang and Yue Zhang and Ge Zhang and Tianyun Zhao and Jianqiu Zhao and Yichi Zhou and Thomas Hanwen Zhu},
