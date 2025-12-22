@@ -33,4 +33,13 @@ Our findings suggest that scaling learning from experience, driven by high-quali
 
 ## Citation
 ```
+@misc{chen2025seedprover15masteringundergraduatelevel,
+      title={Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience}, 
+      author={Jiangjie Chen and Wenxiang Chen and Jiacheng Du and Jinyi Hu and Zhicheng Jiang and Allan Jie and Xiaoran Jin and Xing Jin and Chenggang Li and Wenlei Shi and Zhihong Wang and Mingxuan Wang and Chenrui Wei and Shufa Wei and Huajian Xin and Fan Yang and Weihao Gao and Zheng Yuan and Tianyang Zhan and Zeyu Zheng and Tianxi Zhou and Thomas Hanwen Zhu},
+      year={2025},
+      eprint={2512.17260},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.17260}, 
+}
 ```
