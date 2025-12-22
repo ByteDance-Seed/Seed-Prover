@@ -1,6 +1,9 @@
 # <img src="../imgs/logo.png" height="25"> Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience
 
 ## Overview
+
+[Arxiv 2512.17260](https://arxiv.org/abs/2512.17260)
+
 Large language models have recently made significant progress to generate rigorous mathematical proofs. In contrast, utilizing LLMs for theorem proving in formal languages (such as Lean) remains challenging and computationally expensive, particularly when addressing problems at the undergraduate level and beyond.
 
 In this work, we present **Seed-Prover 1.5**, a formal theorem-proving model trained via large-scale agentic reinforcement learning, alongside an efficient test-time scaling (TTS) workflow. Through extensive interactions with Lean and other tools, the model continuously accumulates experience during the RL process, substantially enhancing the capability and efficiency of formal theorem proving.
